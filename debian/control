@@ -1,0 +1,23 @@
+Source: node-currently-unhandled
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends: debhelper-compat (= 12)
+ , node-array-find-index <!nocheck>
+ , node-tape <!nocheck>
+ , pkg-js-tools (>= 0.9.35~)
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-currently-unhandled
+Vcs-Git: https://salsa.debian.org/js-team/node-currently-unhandled.git
+Homepage: https://github.com/jamestalmage/currently-unhandled
+Rules-Requires-Root: no
+
+Package: node-currently-unhandled
+Architecture: all
+Depends: ${misc:Depends}
+ , node-array-find-index
+ , nodejs
+Description: track the list of currently unhandled promise rejections
+ Node.js is an event-based server-side JavaScript engine.

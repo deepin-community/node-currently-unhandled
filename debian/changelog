@@ -1,0 +1,30 @@
+node-currently-unhandled (0.4.1-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Use pkg-js-tools auto install
+  * Embed delay for test only
+  * Enable upstream test using tape instead of ava
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 05 May 2020 11:20:43 +0200
+
+node-currently-unhandled (0.4.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #842125)
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 26 Oct 2016 11:08:31 +0530
